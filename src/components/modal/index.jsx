@@ -36,7 +36,7 @@ const ReferralModal = ({ open, handleClose }) => {
         let config = {
             method: 'post',
             // maxBodyLength: Infinity,
-            url: 'http://localhost:3000/referrals',
+            url: 'https://accredian-be.onrender.com/referrals',
             data: formData,
         };
 
